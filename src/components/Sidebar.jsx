@@ -22,7 +22,7 @@ const Sidebar = ({selectedCategory, setSelectedCategory}) =>
                     color: 'white'
                 }}
             >
-                <span style={{color: 'red'}}>{category.icon}</span>
+                <span style={{color: 'red', marginRight: '5px'}}>{category.icon}</span>
                 <span>{category.name}</span>
 
             </button>
